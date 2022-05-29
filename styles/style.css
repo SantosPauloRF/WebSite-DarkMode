@@ -1,0 +1,513 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200;400;700&display=swap');
+
+
+/* ----> GLOBAL INICIO <---- */
+
+html {
+	scroll-behavior: smooth;
+}
+
+body{
+    
+    font-family: 'Josefin Sans', sans-serif;
+    width: 99vw;
+    
+    background-color: rgb(233, 199, 248);
+    transition: 0.3s;
+    overflow-x: hidden;
+    overflow-y:auto;
+}
+
+h1{
+    font-size: 72px;
+    font-weight: 700;
+    margin-left: 15px;
+    justify-content: center;
+}
+
+h2{
+    font-size: 22px;
+    font-weight: 700;
+}
+
+
+
+
+/* ----> HERO PAGE INICIO <---- */
+
+
+.hero{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 80vh;
+
+}
+
+    /* ----> HEADER (SWITCH E BOTÕES) INICIO <----*/
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 15%;
+}
+
+
+        /* ----> SWITCH INICIO <----*/  
+
+.btnDark{
+    position: relative;
+    width: 80px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: black;
+    margin-left: 30px;
+    margin-top: 5px;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
+
+.circulo{
+    position: absolute;
+    width: 40%;
+    height: 80%;
+    border-radius: 17px;
+    background-color: white;
+    margin-left: 3px;
+    box-shadow: inset 5px 5px 5px white, inset -3px -3px 5px rgb(0 0 0 /80%);
+    transition: 0.3s;
+
+}
+.circulo2{
+    position: absolute;
+    width: 40%;
+    height: 80%;
+    border-radius: 17px;    
+    background-color: white;
+    margin-left: 3px;
+    transform: translateX(40px);
+    box-shadow: inset 5px 5px 5px white, inset -3px -3px 5px rgb(0 0 0 /80%);
+    transition: 0.3s;
+
+}
+
+        /* ----> BOTOES INICIO <----*/
+
+.menu{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+
+.btnVideos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: black;
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    margin-right: 15px;
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+.btnVideos:hover{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    transform: rotate(-5deg);
+    box-shadow: 0px 0px 10px 4px rgb(222, 144, 242);
+}
+
+.btnContato{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    margin-right: 15px;
+    transition: 0.4s;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.btnContato:hover{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    transform: rotate(-5deg);
+    box-shadow: 0px 0px 10px 4px rgb(222, 144, 242);
+}
+
+       /* ----> CONTEUDO CENTRO INICIO <----*/
+
+.centro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 75%;
+
+}
+
+.fotoHero{
+    width: 250px;
+    border-radius: 40px 100px 40px 100px;
+    box-shadow: 8px 8px 20px rgb(0 0 0 /80%);
+}
+.centro p{
+    font-size: 26px;
+    font-weight: 400;
+    margin-left: 15px;
+}
+
+
+/* ----> VIDEOS PAGE INICIO <---- */
+
+
+
+.videos{
+    
+    background-color: white;
+    display:flex;
+    flex-direction: column;
+    border: 1px solid white;
+    border-radius: 20px;
+    color: black;
+    justify-content:center;
+    align-items: center;
+    width: 97%;
+    text-align: start;
+    
+    margin-left: 1.1rem;
+    
+}
+
+.videosTexto{
+    
+    margin: 40px;
+}
+
+
+.videos p{
+    font-size: 24px;
+    font-weight: 400;
+    
+    
+}
+.videos .videosTexto h1{
+    font-size: 40px;
+    font-weight: 400;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 40px;
+    align-items: center;
+    border: 2px solid black;
+    background-color: rgb(205, 205, 205);
+    border-radius: 50px;
+    width: 300px;
+    height: 500px;
+    margin: 25px;
+    transform: scale(1), translateY(0);
+    transition: 0.4s;
+    box-shadow: 1rem 1rem 0rem black;
+}
+.box:hover{
+    transform: scale(1.04) translateY(-10px);
+    
+}
+.conteudo{
+    
+    display:flex;
+    flex-wrap: wrap;
+    border: 1px solid white;
+    border-radius: 20px;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+    
+    
+    
+}
+
+.video{
+
+    width: 100%;
+    border-radius: 10px;
+    
+
+}
+.video1{
+
+    width: 90%;
+    height: 70%;
+    border-radius: 10px;
+    
+
+}
+
+
+
+
+
+
+
+
+
+/* ----> FOOTER PAGE INICIO <---- */
+
+
+footer{
+    background-color: black;
+    border-radius: 10px 10px 0 0 ;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    width: 100%;
+    height: 12vh;
+    text-align: start;
+    margin-top: 1.1rem;
+    color: white;
+    transition: 0.3s;
+
+}
+
+footer ul{
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+}
+footer ul li{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+}
+
+footer img{
+    width: 30px;
+}
+
+
+/* ----> THE END <---- */
+
+
+
+
+/* -----------> DARK MODE<--------------*/
+
+.dark{
+    background-color: rgba(45, 1, 52, 0.942);
+    color: white;
+}
+.videos{
+    
+    
+    color: black;
+    
+    
+}
+
+
+
+/* ----> DARK - BOTOES INICIO <----*/
+
+.dark .btnVideos{
+    
+    color: rgb(255, 255, 255);
+    
+}
+
+.dark .btnContato{
+    
+    color: rgb(255, 255, 255);
+    
+}
+
+
+
+.dark .btnVideos:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    transform: rotate(-5deg);
+    box-shadow: 0px 0px 10px 4px rgb(222, 144, 242);
+}
+
+.dark .btnContato:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    transform: rotate(-5deg);
+    box-shadow: 0px 0px 10px 4px rgb(222, 144, 242);
+}
+
+
+@media screen and (max-width: 480px) {
+    body{
+    
+        font-family: 'Josefin Sans', sans-serif;
+        width: 100vw;
+        
+        background-color: rgb(233, 199, 248);
+        transition: 0.3s;
+        overflow-x: hidden;
+        overflow-y: auto;
+    }
+
+    .btnVideos{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-decoration: none;
+        color: black;
+        width: 90px;
+        height: 30px;
+        border-radius: 10px;
+        margin-right: 2px;
+        transition: 0.4s;
+        cursor: pointer;
+    }
+
+    .btnVideos:hover{
+        background-color: rgb(233, 199, 248);
+        color: rgb(0, 0, 0);
+        transform: rotate(0deg);
+        box-shadow: 0px 0px 0px 0px rgb(222, 144, 242);
+    }
+
+    .btnContato:hover{
+        background-color: rgb(233, 199, 248);
+        color: rgb(0, 0, 0);
+        transform: rotate(0deg);
+        box-shadow: 0px 0px 0px 0px rgb(222, 144, 242);
+    }
+
+    
+    
+    
+    
+    .btnContato{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: black;
+        width: 90px;
+        height: 30px;
+        border-radius: 10px;
+        margin-right: 2px;
+        transition: 0.4s;
+        cursor: pointer;
+        text-decoration: none;
+    }
+
+    .dark .btnVideos:hover{
+        background-color: rgba(45, 1, 52, 0.942);
+        color: rgb(255, 255, 255);
+        transform: rotate(0deg);
+        box-shadow: 0px 0px 0px 0px rgb(222, 144, 242);
+    }
+    
+    .dark .btnContato:hover{
+        background-color: rgba(45, 1, 52, 0.942);
+        color: rgb(255, 255, 255);
+        transform: rotate(0deg);
+        box-shadow: 0px 0px 0px 0px rgb(222, 144, 242);
+    }
+
+    .centro{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+        width: 100%;
+        height: 75%;
+    
+    }
+
+    h1{
+        font-size: 72px;
+        font-weight: 700;
+        margin-left: 90px;
+        justify-content: center;
+        margin-top: 20px;
+    }
+    .centro p{
+        font-size: 26px;
+        font-weight: 400;
+        margin-left: 90px;
+        margin-top: 10px;
+    }
+    
+
+    .videos{
+    
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        border: 1px solid white;
+        border-radius: 20px;
+        color: black;
+        justify-content:center;
+        align-items: center;
+        width: 97%;
+        text-align: start;
+       
+        
+        margin-left: 0.5rem;
+        
+    }
+
+    .videosTexto{
+    
+        margin: 0px;
+        
+    }
+
+    .videos .videosTexto h1{
+        text-align: center;
+        font-size: 40px;
+        font-weight: 400;
+        margin: 25px 0;
+    }
+   
+    footer ul{
+
+        display: flex;
+        flex-direction: column;
+        
+        
+    
+    }
+
+    footer {
+
+        padding: 15px 0;
+        
+        
+    
+    }
+    .header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 15%;
+        padding: 0 10px;
+    }
+
+    .btnDark{
+        
+        margin-left: 0px;
+        
+    }
+
+}
