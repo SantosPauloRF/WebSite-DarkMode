@@ -61,4 +61,4 @@ Also some basic animations in the content as you hover into them. Same with the 
 
 Still a bunch of things i can do better, but thats my first website and my objective of make a responsive dark mode was achive! 
 
-Any constructive comments pleas send me a message on ![linkedin](https://www.linkedin.com/in/paulo-rafael-faria-dos-santos-a2ba65235/)
+Any constructive comments pleas send me a message on [linkedin](https://www.linkedin.com/in/paulo-rafael-faria-dos-santos-a2ba65235/)
