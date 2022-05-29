@@ -1,6 +1,6 @@
 ## (EN) - Website with dark mode / (pt-BR) - Website com darkmode
 
-(EN) ![GB](images/uk-ico.jpg) - English!
+(![](images/uk-ico.jpg)) - English! - (![](images/uk-ico.jpg))
 
 Hello! Welcome to my page! 
 
