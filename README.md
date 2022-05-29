@@ -2,7 +2,7 @@
 
 ## ![](images/uk-ico.jpg) - English - ![](images/uk-ico.jpg)
 
-🌟**Hello!**🌟 
+🌟Hello!🌟 
 
 Welcome to my page! 
 
@@ -72,7 +72,7 @@ Thank you very much! 👋🙂
 
 ## ![](images/br-ico.jpg) - Português - ![](images/br-ico.jpg)
 
-🌟**Olá!**🌟
+🌟Olá!🌟
 
  Bem vindo a minha página! 
 
