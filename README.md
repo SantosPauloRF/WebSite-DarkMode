@@ -2,19 +2,19 @@
 
 ## ![](images/uk-ico.jpg) - English - ![](images/uk-ico.jpg)
 
-🌟Hello!🌟 
+🌟Hello!🌟
 
-Welcome to my page! 
+Welcome to my page!
 
-This is my firs website. 👨‍🎓 I am a 2 months experience developer (to this date 05/29/22) and i am stil learning the basics of Js, Html, Css and studying Kotlin at the side. 
+This is my first website. 👨‍🎓 I've started my journey as a developer in May 2022 but I am still learning the basics of Js, Html, Css and studying Kotlin at the side.
 
-This project was just to traine how to make an responsive website with dark mode.
+I've created this project to practice creating a responsive website with dark mode.
 
-The idea was just to toggle a class into body-tag that changes the background collor to a dark-purple and the font collor to white.
+The idea was just to toggle a class into body-tag that changes the background color to a dark-purple and the font color to white.
 
 That option is very good in terms of acessibility as some people have bright light sensitivity. 
 
-In the [css file](styles/style.css) you can see at the bottom (befor the ``` @media query ```) all the changes that was made to the classes when you press the switch button. 
+In the [css file](styles/style.css) you can see at the bottom (before the ``` @media query ```) all the changes that was made to the classes when you press the switch button. 
 
 👇
 
@@ -39,9 +39,9 @@ In the [css file](styles/style.css) you can see at the bottom (befor the ``` @me
 ...
 ```
 
-To change any other atribute, was easly done just adding ```.dark ``` + the class i wanted to change.
+To change any the other atributes, it's easly done by adding  ```.dark ``` + the class I wanted to change.
 
-For the action of changing the style, i used the .EventListener javascript proprety to listen to a ```'click'``` event and when that happen, toggle the ```.dark``` class into ```<body>``` tag. Also made a new class for the circle inside of the switch to moove when the same event happens. 
+To change the style, I used .EventListener Javascript proprety to listen to the ```'click'``` event and when that happens, toggle the ```.dark``` class into ```<body>``` tag. Also made a new class for the circle inside of the switch to moove when the same event happens. 
 
 Check it out the [Javascript](script.js) file.
 
@@ -60,13 +60,13 @@ btn.addEventListener('click', function(){
 });
 ```
 
-Other then that, you can see that i used flex box to make all the parts of the website responsive. For the video blocks in the center, i used ```flex-wrap: wrap;``` to make them wrap into each other as the screen get smaller (didnt want to change their size as that will compromise the understanding of the content).
+Other than that, you can see that I used flex box to make all the parts of the website responsive. For the video blocks at the center, I used ```flex-wrap: wrap;``` to make them stack on top of each other as the screen get smaller (didnt want to change their size as that would compromise the understanding of the content).
 
-Also some basic animations in the content as you hover into them. Same with the menu buttons ( made divs and didnt use ```<buttom>``` so i could fully personalize them). I ancor the button clicks to the content and footer ids, so when you press them the page goes to those sections.
+Additionally, I created some basic animations on the content as you hover into them. I did the same with the menu buttons (created divs and didnt use```<buttom>``` so I could fully personalize them). I anchored the button clicks to the content and footer ids, so when you press them the page goes to those sections.
 
-Still a bunch of things i can do better, but thats my first website and my objective of make a responsive dark mode was achive! 
+There are still lot of things I can improve, but this is my first website project and my objective was to make a responsive dark mode website was achieve!
 
-Any constructive comments please send me a message on [linkedin](https://www.linkedin.com/in/paulo-rafael-faria-dos-santos-a2ba65235/)
+If you have any constructive comments please send me a message on [linkedin](https://www.linkedin.com/in/paulo-rafael-faria-dos-santos-a2ba65235/).
 
 Thank you very much! 👋🙂
 
